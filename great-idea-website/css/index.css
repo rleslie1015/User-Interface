@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	max-width: 960px;
+	max-width: 895px;
 	padding-left: 10px;
 	padding-right: 10px;
     margin-left: auto;
@@ -74,35 +74,58 @@ h1, h2, h3, h4, h5 {
 nav {
 	margin: 20px 0;
 	display: inline-block;
+	width: 67%;
 }
 a {
 	text-decoration: none;
 	color: gray;
+	padding: 0 20px;
 }
 h1 {
 	display: inline-block;
 	text-align: center;
-	font-size: 40px;
+	font-size: 70px;
 }
 img.logo {
 	display: inline-block;
+	width: 30%;
 }
 .topLeft {
 	display: inline-block;
 	width: 45%;
 	text-align: center;
 }
-img {
+.topLeft img {
 	display: inline-block;
+	width: 49%
 }
 .test {
 	border: 1px solid red;
 }
-.topContent section {
-	width: 49%;
+.topContent section  {
+	width: 435px;
 	display: inline-block;
+	padding: 3px;
 }
 .bottomContent section {
-	width:30%;
+	width:288px;
 	display: inline-block;
+}
+header {
+	vertical-align: center;
+}
+.top div {
+	width: 45%;
+	display: inline-block;
+	vertical-align: -webkit-baseline-middle;
+}
+.topLeft {
+	text-align: center;
+	width: 49%;
+}
+.middle-img {
+	padding: 25px 0;
+}
+.top {
+	padding: 10px;
 }
