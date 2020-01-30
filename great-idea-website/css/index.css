@@ -157,6 +157,10 @@ button:hover {
 header {
 	vertical-align: center;
 	display: inline-block;
+	position: sticky;
+    top: 0;
+    background: #332EB3;
+
 }
 
 .contact {
